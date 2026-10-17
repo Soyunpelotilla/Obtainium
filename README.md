@@ -1,31 +1,28 @@
-<!-- <div align="center"><a href="https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md"><img src="https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg" alt="Support Palestine" style="width: 100%;"></a></div> -->
-<!-- Banner temporarily removed for reasons, will re-enable or replace shortly -->
-
 # ![Obtainium Icon](./assets/graphics/icon_small.png) Obtainium
 
-Get Android app updates straight from the source.
+Obtén actualizaciones de apps de Android directamente desde la fuente.
 
-Obtainium allows you to install and update apps directly from their releases pages, and receive notifications when new releases are made available.
+Obtainium te permite instalar y actualizar aplicaciones directamente desde sus páginas de versiones, y recibir notificaciones cuando se publiquen nuevas versiones disponibles.
 
-More info:
-- [Obtainium Wiki](https://wiki.obtainium.imranr.dev/) ([repository](https://github.com/ImranR98/Obtainium-Wiki))
-- [Deep Links](https://wiki.obtainium.imranr.dev/deep_links/) - link straight to an import, or add a badge to your own project
-- [Obtainium 101](https://www.youtube.com/watch?v=0MF_v2OBncw) - Tutorial video
-- ["Verified Apps"](https://github.com/privacyguides/verified-apps-android) - App verification tool (recommended, integrates with Obtainium)
-- [apps.obtainium.imranr.dev](https://apps.obtainium.imranr.dev/) - Crowdsourced app configurations ([repository](https://github.com/ImranR98/apps.obtainium.imranr.dev))
-- [Side Of Burritos - You should use this instead of F-Droid | How to use app RSS feed](https://youtu.be/FFz57zNR_M0) - Original motivation for this app
-- [Website](https://obtainium.imranr.dev) ([repository](https://github.com/ImranR98/obtainium.imranr.dev))
+Más información:
+- [Wiki de Obtainium](https://wiki.obtainium.imranr.dev/) ([repositorio](https://github.com/ImranR98/Obtainium-Wiki))
+- [Deep Links](https://wiki.obtainium.imranr.dev/deep_links/) - enlaza directamente a una importación, o añade un badge a tu propio proyecto
+- [Obtainium 101](https://www.youtube.com/watch?v=0MF_v2OBncw) - Vídeo tutorial
+- ["Apps verificadas"](https://github.com/privacyguides/verified-apps-android) - Herramienta de verificación de apps (recomendada, se integra con Obtainium)
+- [apps.obtainium.imranr.dev](https://apps.obtainium.imranr.dev/) - Configuraciones de apps colaborativas ([repositorio](https://github.com/ImranR98/apps.obtainium.imranr.dev))
+- [Side Of Burritos - Deberías usar esto en lugar de F-Droid | Cómo usar el RSS de apps](https://youtu.be/FFz57zNR_M0) - Motivación original de esta app
+- [Sitio web](https://obtainium.imranr.dev) ([repositorio](https://github.com/ImranR98/obtainium.imranr.dev))
 
-Currently supported App sources:
-- Open Source - General:
+Fuentes de apps actualmente soportadas:
+- Código abierto - General:
   - [GitHub](https://github.com/)
   - [GitLab](https://gitlab.com/)
   - [Forgejo](https://forgejo.org/) ([Codeberg](https://codeberg.org/))
   - [F-Droid](https://f-droid.org/)
-  - Third Party F-Droid Repos
+  - Repositorios F-Droid de terceros
   - [IzzyOnDroid](https://android.izzysoft.de/)
   - [SourceHut](https://git.sr.ht/)
-- Other - General:
+- Otras - General:
   - [APKPure](https://apkpure.net/)
   - [Aptoide](https://aptoide.com/)
   - [Uptodown](https://uptodown.com/)
@@ -41,54 +38,54 @@ Currently supported App sources:
   - [CoolApk](https://coolapk.com/)
   - [SourceForge](https://sourceforge.net/)
   - Jenkins Jobs
-  - [APKMirror](https://apkmirror.com/) *(Track-Only)*
+  - [APKMirror](https://apkmirror.com/) *(Solo seguimiento)*
   - [APKCombo](https://apkcombo.com/)
-  - [RockMods](https://rockmods.net/) *(Track-Only)*
-- Other - App-Specific:
+  - [RockMods](https://rockmods.net/) *(Solo seguimiento)*
+- Otras - Específicas por app:
   - [Telegram App](https://telegram.org/)
   - [Neutron Code](https://neutroncode.com/)
-- Direct APK Link
-- "HTML" (Fallback): Any other URL that returns an HTML page with links to APK files
+- Enlace directo a APK
+- "HTML" (alternativa): Cualquier URL que devuelva una página HTML con enlaces a archivos APK
 
-## Finding App Configurations
+## Encontrar configuraciones de apps
 
-You can find crowdsourced app configurations at [apps.obtainium.imranr.dev](https://apps.obtainium.imranr.dev).
+Puedes encontrar configuraciones de apps creadas por la comunidad en [apps.obtainium.imranr.dev](https://apps.obtainium.imranr.dev).
 
-If you can't find the configuration for an app you want, feel free to leave a request on the [issues page](https://github.com/ImranR98/apps.obtainium.imranr.dev/issues).
+Si no encuentras la configuración de una app que quieres, puedes dejar una solicitud en la [página de issues](https://github.com/ImranR98/apps.obtainium.imranr.dev/issues).
 
-Or, contribute some configurations to the website by creating a PR at [this repo](https://github.com/ImranR98/apps.obtainium.imranr.dev).
+O contribuye con algunas configuraciones al sitio web creando un PR en [este repositorio](https://github.com/ImranR98/apps.obtainium.imranr.dev).
 
-## Installation
+## Instalación
 
 [<img src="https://github.com/machiav3lli/oandbackupx/blob/034b226cea5c1b30eb4f6a6f313e4dadcbb0ece4/badge_github.png"
-    alt="Get it on GitHub"
+    alt="Consíguelo en GitHub"
     height="80">](https://github.com/ImranR98/Obtainium/releases)
 [<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png"
-     alt="Get it on IzzyOnDroid"
+     alt="Consíguelo en IzzyOnDroid"
      height="80">](https://apt.izzysoft.de/fdroid/index/apk/dev.imranr.obtainium)
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
-    alt="Get it on F-Droid"
+    alt="Consíguelo en F-Droid"
     height="80">](https://f-droid.org/packages/dev.imranr.obtainium.fdroid/)
-     
-Verification info:
 
-- Package ID: `dev.imranr.obtainium`
-- SHA-256 hash of signing certificate:
+Información de verificación:
+
+- ID del paquete: `dev.imranr.obtainium`
+- Hash SHA-256 del certificado de firma:
   ```text
   B3:53:60:1F:6A:1D:5F:D6:60:3A:E2:F5:0B:E8:0C:F3:01:36:7B:86:B6:AB:8B:1F:66:24:3D:A9:6C:D5:73:62
   ```
-  - Note: The above signature is also valid for the F-Droid flavour of Obtainium, thanks to [reproducible builds](https://f-droid.org/docs/Reproducible_Builds/).
-- [PGP Public Key](https://keyserver.ubuntu.com/pks/lookup?search=contact%40imranr.dev&fingerprint=on&op=index) (to verify APK hashes)
+  - Nota: La firma anterior también es válida para la versión F-Droid de Obtainium, gracias a las [compilaciones reproducibles](https://f-droid.org/docs/Reproducible_Builds/).
+- [Clave pública PGP](https://keyserver.ubuntu.com/pks/lookup?search=contact%40imranr.dev&fingerprint=on&op=index) (para verificar los hashes de los APK)
 
-## Contributing / Developing
+## Contribuir / Desarrollar
 
-Please see the pertinent documentation, [on contributing](docs/CONTRIBUTING.md) and [the developer guide](docs/DEVELOPER_GUIDE.md) (architecture description).
+Consulta la documentación pertinente, [sobre contribuciones](docs/CONTRIBUTING.md) y [la guía del desarrollador](docs/DEVELOPER_GUIDE.md) (descripción de la arquitectura).
 
-## Limitations
-- For some sources, data is gathered using Web scraping and can easily break due to changes in website design. In such cases, more reliable methods may be unavailable.
+## Limitaciones
+- En algunas fuentes, los datos se obtienen mediante web scraping y pueden dejar de funcionar fácilmente debido a cambios en el diseño del sitio web. En esos casos, puede que no haya métodos más fiables disponibles.
 
-## Screenshots
+## Capturas de pantalla
 
-| <img src="./assets/screenshots/1.apps.png" alt="Apps Page" /> | <img src="./assets/screenshots/2.dark_theme.png" alt="Dark Theme" />           | <img src="./assets/screenshots/3.material_you.png" alt="Material You" />    |
+| <img src="./assets/screenshots/1.apps.png" alt="Página de Apps" /> | <img src="./assets/screenshots/2.dark_theme.png" alt="Tema oscuro" /> | <img src="./assets/screenshots/3.material_you.png" alt="Material You" /> |
 | ------------------------------------------------------ | ----------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| <img src="./assets/screenshots/4.app.png" alt="App Page" />   | <img src="./assets/screenshots/5.app_opts.png" alt="App Options" /> | <img src="./assets/screenshots/6.app_webview.png" alt="App Web View" /> |
+| <img src="./assets/screenshots/4.app.png" alt="Página de App" /> | <img src="./assets/screenshots/5.app_opts.png" alt="Opciones de App" /> | <img src="./assets/screenshots/6.app_webview.png" alt="Web View de App" /> |
