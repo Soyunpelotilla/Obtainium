@@ -97,48 +97,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   Future<void> showWelcomeDialogs() async {
-    final sp = settingsProvider;
-    if (!sp.welcomeShown) {
-      await _showAcknowledgedDialog(
-        isAcknowledged: () => sp.welcomeShown,
-        markAcknowledged: () => sp.welcomeShown = true,
-        title: Text(tr('welcome')),
-        content: Column(
-          mainAxisSize: MainAxisSize.min,
-          spacing: AppSpacings.sectionGap,
-          children: [
-            Text(tr('documentationLinksNote')),
-            const LinkText(
-              text: 'https://github.com/ImranR98/Obtainium/blob/main/README.md',
-              url: 'https://github.com/ImranR98/Obtainium/blob/main/README.md',
-              style: TextStyle(fontWeight: FontWeight.bold),
-            ),
-          ],
-        ),
-      );
-    }
-    if (!mounted) return;
-    if (!sp.googleVerificationWarningShown) {
-      await _showAcknowledgedDialog(
-        isAcknowledged: () => sp.googleVerificationWarningShown,
-        markAcknowledged: () => sp.googleVerificationWarningShown = true,
-        title: Text(tr('note')),
-        scrollable: true,
-        content: Column(
-          mainAxisSize: MainAxisSize.min,
-          spacing: AppSpacings.sectionGap,
-          children: [
-            Text(tr('googleVerificationWarningP1')),
-            LinkText(
-              text: tr('googleVerificationWarningP2'),
-              url: 'https://keepandroidopen.org/',
-              style: const TextStyle(fontWeight: FontWeight.bold),
-            ),
-            Text(tr('googleVerificationWarningP3')),
-          ],
-        ),
-      );
-    }
+    // Popups de bienvenida y aviso Google desactivados en este fork.
   }
 
   /// Shows a single-OK dialog and marks it as acknowledged even when it is
