@@ -130,7 +130,10 @@ class _TvTextFieldFocusState extends State<TvTextFieldFocus> {
                   event.logicalKey == LogicalKeyboardKey.enter)) {
             setState(() => _activated = true);
             WidgetsBinding.instance.addPostFrameCallback((_) {
+              if (!mounted) return;
               widget.textFocusNode.requestFocus();
+              SystemChannels.textInput
+                  .invokeMethod<void>('TextInput.show');
             });
             return KeyEventResult.handled;
           }
