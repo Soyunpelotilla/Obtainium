@@ -655,7 +655,6 @@ class _TvInitialFocusState extends State<TvInitialFocus> {
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (!mounted || !context.read<SettingsProvider>().isTV) return;
       final scope = FocusScope.of(context);
-      if (scope.hasFocus) return;
       final policy = FocusTraversalGroup.maybeOf(context);
       if (policy == null) return;
       FocusNode? first = policy.findFirstFocus(scope, ignoreCurrentFocus: true);
