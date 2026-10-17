@@ -100,7 +100,9 @@ class SettingsProvider with ChangeNotifier {
       final info = await DeviceInfoPlugin().androidInfo;
       _cachedIsTV =
           info.systemFeatures.contains('android.hardware.type.television') ||
-          info.systemFeatures.contains('android.software.leanback');
+          info.systemFeatures.contains('android.software.leanback') ||
+          info.systemFeatures.contains('android.software.leanback_only') ||
+          info.systemFeatures.contains('android.hardware.hdmi.cec');
     }
     defaultAppDir = _cachedDefaultAppDir;
     isTV = _cachedIsTV!;
